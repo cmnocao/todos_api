@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe ApplicationController, type: :controller do
+RSpec.describe V1::ApplicationController, type: :controller do
   # create test user
   let!(:user) { create(:user) }
    # set headers for authorization
